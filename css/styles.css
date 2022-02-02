@@ -1,2 +1,41 @@
+:root {
+  --color-text: #000000;
+  --background-color: #ffffff;
+  --focus-color: #2196f3;
+  --secondary-color: #757575;
+}
+.list {
+  color: var(--color-text);
+  list-style-type: none;
+}
 body {
+  background-color: var(--background-color);
+  color: var(--color-text);
+}
+.logo {
+  color: var(--color-text);
+}
+/*site nab */
+.site-nav a {
+  color: var(--color-text);
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--focus-color);
+}
+/*button/*
+
+/*projects*/
+.project-title {
+  color: #212121;
+}
+.project-text {
+  color: var(--secondary-color);
+}
+/*footer*/
+footer {
+  background-color: #2f303a;
+}
+.address {
+  color: #ffffff;
 }
