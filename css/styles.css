@@ -123,6 +123,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
+.bacground-section {
+  background: #f5f4fa;
+}
 .headlines {
   font-family: var(--primary-font-family);
   font-style: normal;
@@ -132,6 +135,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-title);
+  background: #f5f4fa;
 }
 /*team*/
 .team-titl {
